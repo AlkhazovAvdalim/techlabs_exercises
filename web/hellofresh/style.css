@@ -1,0 +1,78 @@
+body {
+
+
+}
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+#card {
+    font-family: 'Lato', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; 
+
+/* nicht best practice, für die übung genutzt wegen des skriptes */
+    text-align: center;
+    box-sizing: border-box;
+    height: 501px;
+    width: 501px;
+    padding: 30px;
+    border-radius: 6px;
+    border-color: white;
+    margin: 0;
+    height: 100%;
+    gap: 5px;
+    background-color: #a2c89c;
+
+
+}
+
+
+
+img {
+    min-width: 250px;
+    max-width: 40%;
+}
+img#logo {
+    /* display: flex;
+    justify-content: center; */
+    margin: 30px 100px;
+}
+
+/* div#title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+div #form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+#form #form-field {
+
+    width: 300px;
+    height: 30px;
+    /* border-radius: 5px;
+    border-style: solid; */
+    margin-bottom: 10px;
+}
+#form #form-button{
+    width: 300px;
+    color: white;
+    height: 25px;
+
+    /* border-radius: 5px; */
+    background-color: #4d4f4d;
+
+} 
+div#bottom_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
