@@ -32,6 +32,8 @@ function swapObjectKeyValue(obj) {
 * If Key conflict, use the value of the second object
 * Note: You are not allowed to use any Object builtin functions such as Object.keys
 * Note: Using Object builtin functions will crash the test cases :P
+
+// Spread operator googlen und umsetzen
 * @param {Object} obj1
 * @param {Object} obj2
 * @return {Object}
@@ -71,6 +73,8 @@ function mergeObject(obj1, obj2) {
   * Note: You are not allowed to acces the array using index e.g. arr[0], arr[i]
   * Note: You are not allowed to use any loops (for, while, do while)
   * Note: Violating the above rules will crash the test cases :P
+  * 
+  * destructuring 
   * @param {number[]} triplets
   * @return {number[]}
 */
