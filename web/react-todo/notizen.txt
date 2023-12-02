@@ -1,0 +1,10 @@
+Input Komponente
+Besteht aus Input field (hat bestimmte value)und button (hat onclick funktion)
+
+Onclick auf button, fetchted info aus dem feld, passed es in eine liste und 
+iterativ wird komponente 2 generiert
+
+Auf liste wird komponente 2 generiert: besteht aus text feld und button,
+hat einen key. 
+
+Click auf button bei anderen komponente löscht 
