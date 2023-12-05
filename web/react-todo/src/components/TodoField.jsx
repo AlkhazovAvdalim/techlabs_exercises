@@ -7,10 +7,13 @@ function TodoField() {
   const [todo, setTodo] = useState("");
   // Text from input
   const [text, setText] = useState("");
+  // List of todos
   const [items, setItems] = useState([]);
+
   function deleteTodo(id) {
     setItems(items.filter((item) => item !== id));
   }
+
   function handleClick() {
     let inputText = text;
     console.log(text);
@@ -19,6 +22,7 @@ function TodoField() {
     // setItems((prevList)=>[...prevList,{{inputText}})
     setText("");
   }
+
   return (
     <>
       {items.map((todo, index) => {
